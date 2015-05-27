@@ -43,7 +43,7 @@ module.exports = function base64ToImage(base64String, dirPath, imgName, cb) {
 
   if(arguments.length === 3) {
     cb = imgName;
-    imgName = crypto.randomBytes(10).toString('hex');
+    imgName = crypto.randomBytes(20).toString('hex');
   }
 
 
