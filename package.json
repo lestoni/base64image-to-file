@@ -7,11 +7,11 @@
     "test": "test"
   },
   "dependencies": {
-    "rimraf": "~2.3.4",
     "mkdirp": "~0.5.1"
   },
   "devDependencies": {
-    "mocha": "~2.2.5"
+    "mocha": "~2.2.5",
+    "rimraf": "~2.3.4"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --reporter spec"
