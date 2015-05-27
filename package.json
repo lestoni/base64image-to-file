@@ -1,0 +1,36 @@
+{
+  "name": "base64image-to-file",
+  "version": "1.0.0",
+  "description": "create an image file from a base64 encoded image string",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "rimraf": "~2.3.4",
+    "mkdirp": "~0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lestoni/base64image-to-file.git"
+  },
+  "keywords": [
+    "base64",
+    "image",
+    "file",
+    "encoded",
+    "write"
+  ],
+  "author": "Tony Mutai <tonimut7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lestoni/base64image-to-file/issues"
+  },
+  "homepage": "https://github.com/lestoni/base64image-to-file"
+}
