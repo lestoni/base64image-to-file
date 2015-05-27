@@ -41,7 +41,7 @@ The module takes a base64 encoded image string and creates an image from it.
 
 ## API
 
-## base64ImageToFile(base64String, dirPath [, imageName], cb)
+##### base64ImageToFile(base64String, dirPath [, imageName], cb)
 
 __base64String__
 
