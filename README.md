@@ -1,6 +1,6 @@
 # base64image-to-file
 
-[![Build Status](https://travis-ci.org/lestoni/base64image-to-file.svg?branch=1.0.0)](https://travis-ci.org/lestoni/base64image-to-file)
+[![Build Status](https://travis-ci.org/lestoni/base64image-to-file.svg?branch=master)](https://travis-ci.org/lestoni/base64image-to-file)
 
 [![NPM](https://nodei.co/npm/base64image-to-file.png?downloads=true&stars=true)](https://nodei.co/npm/base64image-to-file/)
 
