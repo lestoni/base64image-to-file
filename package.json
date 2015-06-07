@@ -1,6 +1,6 @@
 {
   "name": "base64image-to-file",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "create an image file from a base64 encoded image string",
   "main": "index.js",
   "directories": {
