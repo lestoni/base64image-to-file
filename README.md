@@ -5,7 +5,7 @@
 [![NPM](https://nodei.co/npm/base64image-to-file.png?downloads=true&stars=true)](https://nodei.co/npm/base64image-to-file/)
 
 
-The module takes a base64 encoded image string and creates an image from it.
+The module takes a base64 encoded image string(i.e data-url) and creates an image file from it.
 
 ## Install
 
