@@ -1,6 +1,5 @@
 'use strict';
 
-
 /**
  * Load Module Dependencies.
  */
@@ -15,7 +14,7 @@ var regex = /^data:([A-Za-z-+\/]+);base64,(.+)$/;
  * Original idea from http://stackoverflow.com/questions/20267939/nodejs-write-base64-image-file
  */
 function decode (dataString, cb) {
-  var matches = dataString.match(regex);
+  var matches = dataString.match(regex) || { length: 0 };
   var info    = {};
 
   if(matches.length !== 3) {
